@@ -39,3 +39,8 @@ Download Link: https://drive.google.com/file/d/1870vXIu6hEQp5OWMOCRPxRNawN39nBxU
    ```markdown
     python main.py
    ```
+### Screenshots
+
+<img src = "https://github.com/nileshchilka1/Computer-Vision-for-blind-person/blob/main/screenshots/Screenshot.png"
+         alt = "HTML" height = "700" width = "1100" />
+

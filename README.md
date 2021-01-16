@@ -7,7 +7,7 @@ I Developed Computer Vision for Blind Person, the moto of this project is that, 
 ### Motivation
 
 
-### Demo : Open in Mobile Browser (Chrome) Only.
+### Demo : Open in Mobile Browser (E.g. Chrome) Only.
 
 Link: https://computer-vision-286411.el.r.appspot.com/
 

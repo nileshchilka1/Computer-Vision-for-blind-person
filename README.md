@@ -2,7 +2,7 @@
 
 ### Overview
 
-We Developed Computer Vision for Blind Person, the aim of this project is that, the Blind Person should able to do his daily needs, without external help.
+We Developed Computer Vision for Blind Person, the aim of this project is that, the Blind Person should able to do his day-to-day activites, without external help.
 
 ### Motivation
 

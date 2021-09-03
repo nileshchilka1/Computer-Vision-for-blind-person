@@ -173,22 +173,23 @@ def vision(img):
         img,locations=detect_image(img)
         
         location_text =  ['The Objects at top left are,','The Objects at top are,','The Objects at top right are,','The Objects at center left are,','The Objects at center are,','The Objects at center right are,','The Objects at bottom left are,','The Objects at bottom are,','The Objects at bottom right are,']
-        
+        #print(locations)
         mytext = ''
         for i,k in enumerate(locations):
             count_of_object = Counter(k)
-        
+            #print(count_of_object)
             object_count = ''
             if len(count_of_object) != 0:
                     for key,value in count_of_object.items():
                         
                         object_count += str(value) +' '+ str(key)+ ' '
                         
-                        if mytext == '':
-                            mytext = location_text[i] + object_count
-                        else:
+                    if mytext == '':
+                        mytext = location_text[i] + object_count
                             
-                            mytext +=  location_text[i] + object_count
+                    else:
+                            
+                        mytext +=  location_text[i] + object_count
                             
             
         

@@ -1,5 +1,6 @@
 from flask import Flask, render_template,request
 import camera
+import requests
 import os
 from base64 import b64encode
 from gtts import gTTS
@@ -35,11 +36,14 @@ def web():
         
         if mytext != '':
                 print('3')
-                myobj = gTTS(text=mytext, lang='en', slow=False)
-                
-                myobj.save("/tmp/speech.mp3")
+                #myobj = gTTS(text=mytext, lang='en', slow=False)
+                url = f"https://translate.google.com/translate_tts?ie=UTF-8&q={mytext}&tl=en&ttsspeed=1&total=1&idx=0&client=tw-ob&tk=838940.655735"
+                doc = requests.get(url)
+                with open("/data/speech.mp3", 'wb') as f:
+                    f.write(doc.content)
+                #myobj.save("/tmp/speech.mp3")
                 print('4')
-                with open("/tmp/speech.mp3", "rb") as f1:
+                with open("/data/speech.mp3", "rb") as f1:
                     encoded_f1 = b64encode(f1.read())
                     audio_data = "data:audio/wav;base64,"+str(encoded_f1)[2:-1]
 

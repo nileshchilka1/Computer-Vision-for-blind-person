@@ -10,6 +10,7 @@ We Developed Computer Vision for Blind Person, the aim of this project is that, 
 ### Demo : Open in Mobile Browser (E.g. Chrome) Only.
 
 Link: https://computer-vision-286411.el.r.appspot.com/
+Video: https://youtu.be/tdNQgYt9Y04
 
 ### Installation
 The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, follow below steps.

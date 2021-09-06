@@ -10,6 +10,7 @@ We Developed Computer Vision for Blind Person, the aim of this project is that, 
 ### Demo : Open in Mobile Browser (E.g. Chrome) Only.
 
 Link: https://computer-vision-286411.el.r.appspot.com/
+
 Video: https://youtu.be/tdNQgYt9Y04
 
 ### Installation

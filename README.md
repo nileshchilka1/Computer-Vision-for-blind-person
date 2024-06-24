@@ -34,7 +34,7 @@ Download Link: https://github.com/nileshchilka1/Computer-Vision-for-blind-person
    ```
 4. Download the Model
 
-Download Link: https://drive.google.com/file/d/1870vXIu6hEQp5OWMOCRPxRNawN39nBxU/view?usp=sharing
+Download Link: [https://drive.google.com/file/d/1870vXIu6hEQp5OWMOCRPxRNawN39nBxU/view?usp=sharing](https://drive.google.com/file/d/1ou9bjnipIAmZzoJQDbDHPXiOSSmA_y4B/view?usp=sharing)
   
 5. Run app.py
 
